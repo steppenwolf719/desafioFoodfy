@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> Foodfy </title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+            body {
+                background-color: #282a36;
+                color: silver;
+            }
+            header {
+                padding: 32px;
+                border-bottom: 5px solid; /* só tem 1 valor pois se trata do border, os valores so ao contrario.*/
+                background: rgba(102, 96, 96, 90);
+            }
+            /*Cascade Style Sheet - ideia root do CSS abaixo*/
+
+            header div { /*engloba todas as divs*/
+                text-align: left;
+            }
+            header div a { /*engloba o a (nível de força) */
+                color: whitesmoke;
+                font-size: 16px;
+                line-height: 26px;
+                margin: 0 16px; /*espaçamento*/
+                text-decoration: none; /*tira o sublinhado*/
+            }
+           
+            
+        </style>
+
+
+    </head>
+
+    <body>
+  
+        <header> <!--Agrupa os menus iniciais-->
+
+            <div class="links"> <!--obs1 - posso classificar div por simbolo-->
+
+                <a href="">Foodfy</a> <!--Leva pra Home-->
+                <a href="">Sobre</a> <!-- Leva pra pg Sobre -->
+                <a href="">Receitas</a> <!-- Leva pra pg Receitas -->
+
+            </div> <!--obs2 - div é uma caixa para guardar algo-->
+
+            
+        </header>
+
+    </body>
+
+</html>
+
+<!-- 
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="/siteFoodfy/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+-->
